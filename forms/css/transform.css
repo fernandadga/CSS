@@ -18,13 +18,13 @@
   color: white;
   text-align: center;
   line-height: 150px;
-  -webkit-transform: rotate(45deg);
+  -webkit-transform: rotate(25deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .element-1 {
-  background-color: #009966;
+  background-color: #a7cf17;
   -webkit-transform-origin: center;
   -ms-transform-origin: center;
   transform-origin: center;
@@ -33,25 +33,25 @@
     transform: skew(30deg, 30deg);*/
         -ms-transform: matrix(1, -0.3, 0, 1, 0, 0); 
     -webkit-transform: matrix(1, -0.3, 0, 1, 0, 0); 
-    transform: matrix(2, -0.3, 2, 1, 0, 0);
+    transform: matrix(1, -0.3, 2, 1, 0, 0);
 }
 
 .element-2 {
-  background-color: purple;
+  background-color: pink;
   -webkit-transform-origin: top left;
   -ms-transform-origin: top left;
   transform-origin: top left;
 }
 
 .element-3 {
-  background-color: #0099ee;
+  background-color: #187885;
   -webkit-transform-origin: 100% 100%;
   -ms-transform-origin: 100% 100%;
   transform-origin: 100% 100%;
 }
 
 .element-4 {
-  background-color: orange;
+  background-color: orangered;
   -webkit-transform-origin: 500px;
   -ms-transform-origin: 500px;
   transform-origin: 500px;
